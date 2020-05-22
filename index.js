@@ -8,7 +8,10 @@ const colors = {
 }
 
 function colorize (str, opts) {
-  const headerLength = (opts || {}).headerLength || 2
+  let headerLength = (opts || {}).headerLength
+  if (typeof headerLength !== 'number' || Number.isNaN(headerLength)) {
+    headerLength = 2
+  }
 
   const color = (str, colorId) => {
     var { open, close } = colors[colorId]
