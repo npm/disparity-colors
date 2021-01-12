@@ -163,4 +163,3 @@ new mode 100755`, { headerLength: 6 }),
   )
   t.end()
 })
-
