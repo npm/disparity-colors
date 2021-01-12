@@ -53,5 +53,8 @@
   "devDependencies": {
     "standard": "^16.0.3",
     "tap": "^14.11.0"
+  },
+  "dependencies": {
+    "ansi-styles": "^4.3.0"
   }
 }
