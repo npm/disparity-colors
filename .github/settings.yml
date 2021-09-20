@@ -1,15 +1,2 @@
 ---
 _extends: '.github:npm-cli/settings.yml'
-
-branches:
-  - name: *
-    protection:
-      required_pull_request_reviews:
-        required_approving_review_count: 1
-
-teams:
-  - { name: 'cli-team',     permission: 'admin' }
-  - { name: 'robot-write',  permission: 'admin' }
-  - { name: 'robot',        permission: 'pull'  }
-  - { name: 'employees',    permission: 'pull'  }
-  - { name: 'eng',          permission: 'push'  }
