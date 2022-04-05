@@ -1,7 +1,7 @@
 const tap = require('tap')
 const { test } = tap
 
-const colorize = require('./index.js')
+const colorize = require('..')
 
 // NOTE: $ cat tap-snapshots/test.js-TAP.test.js provides
 // a handy quick visual check to visualize color output
@@ -125,6 +125,7 @@ new mode 100755`, { headerLength: 3 }),
 
 test('long header example', t => {
   t.matchSnapshot(
+    /* eslint-disable max-len */
     colorize(`diff --git a/node_modules/string_decoder/node_modules/safe-buffer/README.md b/node_modules/string_decoder/node_modules/safe-buffer/README.md
 deleted file mode 100644
 index 356e35193..000000000
@@ -149,6 +150,7 @@ index 356e35193..000000000
 -
 -**Uses the built-in implementation when available.**
 -`, { headerLength: 5 }),
+    /* eslint-disable max-len */
     'should colorize long header'
   )
   t.end()

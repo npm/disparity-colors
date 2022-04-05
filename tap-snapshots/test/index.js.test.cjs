@@ -5,7 +5,7 @@
  * Make sure to inspect the output below.  Do not ignore changes!
  */
 'use strict'
-exports[`test.js TAP custom header length > should colorize header lines 1`] = `
+exports[`test/index.js TAP custom header length > should colorize header lines 1`] = `
 [33mdiff --git a/src/index.js b/src/index.js[39m
 [33mindex a0a7b09..9f54025 100644[39m
 [33m--- a/src/index.js[39m
@@ -17,13 +17,13 @@ exports[`test.js TAP custom header length > should colorize header lines 1`] = `
  const os = require("os");
 `
 
-exports[`test.js TAP header greater than amount of lines > should not fail and colorize lines properly 1`] = `
+exports[`test/index.js TAP header greater than amount of lines > should not fail and colorize lines properly 1`] = `
 [33mdiff --git a/lib/fund.js b/lib/fund.js[39m
 [33mold mode 100644[39m
 [33mnew mode 100755[39m
 `
 
-exports[`test.js TAP invalid header options > should default to 2-lines header on headerLength: NaN 1`] = `
+exports[`test/index.js TAP invalid header options > should default to 2-lines header on headerLength: NaN 1`] = `
 [33m--- a/src/index.js[39m
 [33m+++ b/src/index.js[39m
 [35m@@ -1,4 +1,5 @@[39m
@@ -33,7 +33,7 @@ exports[`test.js TAP invalid header options > should default to 2-lines header o
  const os = require("os");
 `
 
-exports[`test.js TAP invalid header options > should default to 2-lines header on headerLength: empty string 1`] = `
+exports[`test/index.js TAP invalid header options > should default to 2-lines header on headerLength: empty string 1`] = `
 [33m--- a/src/index.js[39m
 [33m+++ b/src/index.js[39m
 [35m@@ -1,4 +1,5 @@[39m
@@ -43,7 +43,7 @@ exports[`test.js TAP invalid header options > should default to 2-lines header o
  const os = require("os");
 `
 
-exports[`test.js TAP invalid header options > should default to 2-lines header on headerLength: null 1`] = `
+exports[`test/index.js TAP invalid header options > should default to 2-lines header on headerLength: null 1`] = `
 [33m--- a/src/index.js[39m
 [33m+++ b/src/index.js[39m
 [35m@@ -1,4 +1,5 @@[39m
@@ -53,7 +53,7 @@ exports[`test.js TAP invalid header options > should default to 2-lines header o
  const os = require("os");
 `
 
-exports[`test.js TAP invalid header options > should default to 2-lines header on headerLength: regex 1`] = `
+exports[`test/index.js TAP invalid header options > should default to 2-lines header on headerLength: regex 1`] = `
 [33m--- a/src/index.js[39m
 [33m+++ b/src/index.js[39m
 [35m@@ -1,4 +1,5 @@[39m
@@ -63,7 +63,7 @@ exports[`test.js TAP invalid header options > should default to 2-lines header o
  const os = require("os");
 `
 
-exports[`test.js TAP invalid header options > should default to 2-lines header on headerLength: undefined 1`] = `
+exports[`test/index.js TAP invalid header options > should default to 2-lines header on headerLength: undefined 1`] = `
 [33m--- a/src/index.js[39m
 [33m+++ b/src/index.js[39m
 [35m@@ -1,4 +1,5 @@[39m
@@ -73,7 +73,7 @@ exports[`test.js TAP invalid header options > should default to 2-lines header o
  const os = require("os");
 `
 
-exports[`test.js TAP invalid header options > should default to 2-lines header on headerLength: {} 1`] = `
+exports[`test/index.js TAP invalid header options > should default to 2-lines header on headerLength: {} 1`] = `
 [33m--- a/src/index.js[39m
 [33m+++ b/src/index.js[39m
 [35m@@ -1,4 +1,5 @@[39m
@@ -83,7 +83,7 @@ exports[`test.js TAP invalid header options > should default to 2-lines header o
  const os = require("os");
 `
 
-exports[`test.js TAP long header example > should colorize long header 1`] = `
+exports[`test/index.js TAP long header example > should colorize long header 1`] = `
 [33mdiff --git a/node_modules/string_decoder/node_modules/safe-buffer/README.md b/node_modules/string_decoder/node_modules/safe-buffer/README.md[39m
 [33mdeleted file mode 100644[39m
 [33mindex 356e35193..000000000[39m
@@ -110,7 +110,7 @@ exports[`test.js TAP long header example > should colorize long header 1`] = `
 [31m-[39m
 `
 
-exports[`test.js TAP no header > should colorize with no header 1`] = `
+exports[`test/index.js TAP no header > should colorize with no header 1`] = `
 [35m@@ -1,4 +1,5 @@[39m
  "use strict";
 [32m+"use foo";[39m
@@ -118,13 +118,13 @@ exports[`test.js TAP no header > should colorize with no header 1`] = `
  const os = require("os");
 `
 
-exports[`test.js TAP only header > should colorize all output as header 1`] = `
+exports[`test/index.js TAP only header > should colorize all output as header 1`] = `
 [33mdiff --git a/lib/fund.js b/lib/fund.js[39m
 [33mold mode 100644[39m
 [33mnew mode 100755[39m
 `
 
-exports[`test.js TAP simple diff > should colorize simple diff 1`] = `
+exports[`test/index.js TAP simple diff > should colorize simple diff 1`] = `
 [33m--- a/src/index.js[39m
 [33m+++ b/src/index.js[39m
 [35m@@ -1,4 +1,5 @@[39m
