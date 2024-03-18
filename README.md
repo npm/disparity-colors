@@ -1,7 +1,7 @@
 # @npmcli/disparity-colors
 
 [![NPM version](https://img.shields.io/npm/v/@npmcli/disparity-colors)](https://www.npmjs.com/package/@npmcli/disparity-colors)
-[![Build Status](https://img.shields.io/github/workflow/status/npm/disparity-colors/node-ci)](https://github.com/npm/disparity-colors)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/npm/disparity-colors/ci.yml?branch=main)](https://github.com/npm/disparity-colors)
 [![License](https://img.shields.io/github/license/npm/disparity-colors)](https://github.com/npm/disparity-colors/blob/master/LICENSE)
 
 Spiritual sucessor to [disparity](https://www.npmjs.com/package/disparity). Colorizes [Diff Unified format](https://en.wikipedia.org/wiki/Diff#Unified_format) output using [ansi-styles](https://www.npmjs.com/package/ansi-styles).
