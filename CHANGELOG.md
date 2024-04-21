@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.0.1](https://github.com/npm/disparity-colors/compare/v3.0.0...v3.0.1) (2024-04-21)
+
+### Documentation
+
+* [`eb1dffa`](https://github.com/npm/disparity-colors/commit/eb1dffa423c5ed6f97e24068043d058009e11e95) [#70](https://github.com/npm/disparity-colors/pull/70) readme: fix broken badge URL (#70) (@10xLaCroixDrinker)
+
+### Chores
+
+* [`8ee3786`](https://github.com/npm/disparity-colors/commit/8ee37866fb6aaffa8edde3835f94b9cd7a69fa09) [#27](https://github.com/npm/disparity-colors/pull/27) bump @npmcli/eslint-config from 3.1.0 to 4.0.0 (@dependabot[bot])
+* [`dc36617`](https://github.com/npm/disparity-colors/commit/dc36617b9174785d94659b56c6075d4c6be58d59) [#72](https://github.com/npm/disparity-colors/pull/72) postinstall for dependabot template-oss PR (@lukekarrys)
+* [`9438024`](https://github.com/npm/disparity-colors/commit/9438024770180cd2de7353db767d02dddddcbbfd) [#72](https://github.com/npm/disparity-colors/pull/72) bump @npmcli/template-oss from 4.21.3 to 4.21.4 (@dependabot[bot])
+
 ## [3.0.0](https://github.com/npm/disparity-colors/compare/v2.0.0...v3.0.0) (2022-10-10)
 
 ### ⚠️ BREAKING CHANGES
